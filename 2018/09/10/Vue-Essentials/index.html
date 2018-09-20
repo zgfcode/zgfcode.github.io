@@ -64,10 +64,10 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=6.3.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon32.ico?v=6.3.0">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico?v=6.3.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon16.ico?v=6.3.0">
 
 
   <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
@@ -112,11 +112,11 @@
 <meta name="keywords" content="Vue">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Vue Essentials">
-<meta property="og:url" content="http://weia.aten.xyz/2018/09/10/Vue-Essentials/index.html">
+<meta property="og:url" content="http://weia.xyz/2018/09/10/Vue-Essentials/index.html">
 <meta property="og:site_name" content="未啊">
 <meta property="og:description" content="Vue 核心最基本的功能 声明式渲染Vue.js 的核心是一个允许采用简洁的模板语法来声明式地将数据渲染进 DOM 的系统。vue01: 数据绑定到DOM文本；数据绑定到DOM特性  条件与循环vue02: 数据绑定到DOM结构  处理用户输入vue03: 事件监听器；表单输入和应用状态之间的双向绑定  组件化应用构建组件系统是一种抽象，允许使用小型、独立和通常可复用的组件构建大型应用。如何将任意">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-09-17T11:23:56.490Z">
+<meta property="og:updated_time" content="2018-09-19T07:09:10.800Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Vue Essentials">
 <meta name="twitter:description" content="Vue 核心最基本的功能 声明式渲染Vue.js 的核心是一个允许采用简洁的模板语法来声明式地将数据渲染进 DOM 的系统。vue01: 数据绑定到DOM文本；数据绑定到DOM特性  条件与循环vue02: 数据绑定到DOM结构  处理用户输入vue03: 事件监听器；表单输入和应用状态之间的双向绑定  组件化应用构建组件系统是一种抽象，允许使用小型、独立和通常可复用的组件构建大型应用。如何将任意">
@@ -126,7 +126,7 @@
 
 
 
-  <link rel="canonical" href="http://weia.aten.xyz/2018/09/10/Vue-Essentials/"/>
+  <link rel="canonical" href="http://weia.xyz/2018/09/10/Vue-Essentials/"/>
 
 
 
@@ -209,7 +209,7 @@
     </div>
     
       
-        <p class="site-subtitle">Before Ah!</p>
+        <h1 class="site-subtitle" itemprop="description">Approaching Ah!</h1>
       
     
   </div>
@@ -349,7 +349,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://weia.aten.xyz/2018/09/10/Vue-Essentials/">
+    <link itemprop="mainEntityOfPage" href="http://weia.xyz/2018/09/10/Vue-Essentials/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ATEN">
@@ -366,10 +366,10 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Vue Essentials
+          <h2 class="post-title" itemprop="name headline">Vue Essentials
               
             
-          </h1>
+          </h2>
         
 
         <div class="post-meta">
@@ -408,7 +408,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-09-17 19:23:56" itemprop="dateModified" datetime="2018-09-17T19:23:56+08:00">2018-09-17</time>
+                <time title="Modified: 2018-09-19 15:09:10" itemprop="dateModified" datetime="2018-09-19T15:09:10+08:00">2018-09-19</time>
               
             
           </span>
@@ -486,7 +486,13 @@
 <h3 id="Vue实例"><a href="#Vue实例" class="headerlink" title="Vue实例"></a>Vue实例</h3><ul>
 <li>创建一个Vue实例</li>
 <li>数据与方法</li>
-<li>实现生命周期的钩子</li>
+<li>实现生命周期的钩子<ul>
+<li>create</li>
+<li>mount</li>
+<li>update</li>
+<li>destroy</li>
+</ul>
+</li>
 </ul>
 <h3 id="模板语法"><a href="#模板语法" class="headerlink" title="模板语法"></a>模板语法</h3><ul>
 <li>插值</li>
@@ -655,7 +661,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">128</span>
+                    <span class="site-state-item-count">139</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -698,7 +704,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">15</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">17</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -869,12 +879,17 @@
             <div class="links-of-author motion-element">
               
                 <span class="links-of-author-item">
-                  <a href="https://github.com/zgfcode" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  <a href="http://aten.xyz" target="_blank" title="aten.xyz" rel="external nofollow"><i class="fa fa-fw fa-globe"></i>aten.xyz</a>
                   
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="mailto:zgfcode@163.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  <a href="https://github.com/zgfcode" target="_blank" title="GitHub" rel="external nofollow"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:zgfcode@163.com" target="_blank" title="E-Mail" rel="external nofollow"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                   
                 </span>
               
@@ -884,7 +899,7 @@
           
           
             <div class="cc-license motion-element" itemprop="license">
-              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank">
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank" rel="external nofollow">
                 <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
               </a>
             </div>
@@ -931,7 +946,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; TBB&ndash;<span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2016&ndash;<span itemprop="copyrightYear">2018</span>
   <span class="with-love" id="animate">
     <i class="fa fa-globe"></i>
   </span>
@@ -948,9 +963,11 @@
 </div>
 
 
+  
 
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" rel="external nofollow" href="https://hexo.io">Hexo</a></div>
 
 
 
@@ -958,7 +975,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Mist</a></div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" rel="external nofollow" href="https://theme-next.org">NexT.Mist</a></div>
 
 
 

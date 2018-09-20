@@ -1,6 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Sublime Text]]></title>
+    <url>%2F2018%2F09%2F20%2FSublime-Text%2F</url>
+    <content type="text"><![CDATA[Sublime Text: a sophisticated text editor for code, markup and prose.Package Control: the Sublime Text package manager.Emmet]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Tools</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[npm]]></title>
+    <url>%2F2018%2F09%2F20%2Fnpm%2F</url>
+    <content type="text"><![CDATA[npm: is the package manager for JavaScript and the world’s largest software registry. Install Node.js &amp; npmpackage.jsonnrm CLI commands npm -v npm install npm@latest -g npm i npm config list npm ls -g –depth 0 npm outdated npm update npm uninstall]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Tools</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[→Ah!]]></title>
+    <url>%2F2018%2F09%2F20%2FApproaching-Ah%2F</url>
+    <content type="text"><![CDATA[→Ah! means approaching Ah! ah, interjection, used to express delight, relief, regret, or contempt.]]></content>
+      <categories>
+        <category>Thinking</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[HTML Forms]]></title>
+    <url>%2F2018%2F09%2F20%2FHTML-Forms%2F</url>
+    <content type="text"><![CDATA[HTML forms]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Frontend</category>
+        <category>HTML</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[HTML Tables]]></title>
+    <url>%2F2018%2F09%2F20%2FHTML-Tables%2F</url>
+    <content type="text"><![CDATA[HTML tables]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Frontend</category>
+        <category>HTML</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Multimedia and Embedding]]></title>
+    <url>%2F2018%2F09%2F20%2FMultimedia-and-Embedding%2F</url>
+    <content type="text"><![CDATA[Multimedia and embedding HTML中的图片 视频和音频内容 从&lt;object>到&lt;iframe> — 其他嵌入技术 在页面中添加矢量图像 响应式图片]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Frontend</category>
+        <category>HTML</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[HTML Guides]]></title>
+    <url>%2F2018%2F09%2F20%2FHTML-Guides%2F</url>
+    <content type="text"><![CDATA[Introduction to HTMLHTML(HyperText Markdown Language), 是一种标记语言. HTML入门元素: 开始标签: 开始尖括号, 元素名称, 结束尖括号 结束标签: 开始尖括号, 正斜杠”/“, 元素名称, 结束尖括号 内容 元素: 开始标记+结束标记+内容=元素 标签不区分大小写 元素嵌套: 元素放于其它元素之中块级元素内联元素空元素HTML5重新定义了元素的类别 属性:包含元素的额外信息, 不会出现在实际内容中 元素和属性之间有一个空格; 多个属性, 属性之间有空格. 属性后面紧跟一个”=”符号 有一个属性值, 由引号引起来 布尔属性: 没有值的属性, 只能由跟它的属性名一样的属性值.省略包围属性值的引号: 避免省略, 避免出错单引号或双引号: 都可以 Others HTML中的空白: 连续出现的空白字符(空格, 换行)会被减少为一个单独的空格符 实体引用: 在HTML中包含特殊字符要用到字符引用; &amp; 开始, ; 结束 HTML注释: &lt;!-- --> Head中有什么? HTML中的元数据Head标签&lt;head>元素的内容; head的内容不会显示在浏览器中, 作用是包含一些页面的元数据 &lt;title>元素 &lt;meta>元素 charset: 指定文档中字符的编码 name(指定meta元素类型; 说明元素包含什么类型的信息) &amp; content(指定实际的元数据内容) property &amp; content Facebook的元数据协议 站点自定义图标 &lt;link rel=”shortcut icon” href=”favicon.ico” type=”image/x-icon”> &lt;link rel=”” sizes=”” href=”#”> 在HTML中应用CSS和JavaScript &lt;link>元素 &lt;link rel=”stylesheet” href=”my-css-file.css”> &lt;script>元素 &lt;script src=”my-js-file.js”>&lt;/script> 为文档设定主语言 &lt;html lang=”en”> ; &lt;html lang=”zh”> 为文档的分段设置为不同的语言 &lt;p>Japanese example: &lt;span lang=”jp”>ご飯が熱い。&lt;/span>.&lt;/p> HTML文字处理基础标题和段落 标题标签: &lt;h1>, &lt;h2>, &lt;h3>, &lt;h4>, &lt;h5>, &lt;h6>, 段落标签: &lt;p> 网页中的层次与结构 为什么我们需要结构化? 为什么我们需要语义? 列表 无序列表 ul li 有序列表 ol li 嵌套列表 强调 斜体字 粗体字 下划线表象元素 创建超链接超链接使我们能够将我们的文档链接到任何其他文档（或其他资源）, 也可以链接到文档的指定部分. &lt;a>元素: href title 块级链接 URL: 一个定义了在网络上的位置的一个文本字符串 连接到文档的特定部分(文档片段) &lt;a href=”url#id”> 绝对链接 &amp; 相对链接 链接最佳实践 清晰的链接措辞 尽可能使用相对链接(同一网站其它位置) 链接到非html资源, 留下清晰指示信息 下载链接使用下载属性download 电子邮件链接 &lt;a href=”mailto:nowhere@aten.xyz“>Send email to nowhere&lt;/a> 提供其他信息 subject cc body 每个字段的值必须是URL编码的, 不能有非打印字符 问号 ? 来分隔主URL与参数值, 以及使用 &amp; 符来分隔mailto:中的各个参数 高级文本排版描述列表 dl dt dd标记一组项目及其相关描述 引用 块引用 &lt;blockquote cite=”http://aten.xyz&quot;\&gt; &lt;/blockquote> 行内引用 &lt;q cite=”http://aten.xyz&quot;\&gt; &lt;/q> 引文 &lt;cite> 缩略语 &lt;abbr title=””> 标记联系方式 &lt;address> 上标和下标 &lt;sup> &lt;sub> 展示计算机代码 &lt;code> &lt;pre> &lt;var> &lt;kbd> &lt;samp> 标记时间和日期 &lt;time datetime=” “> 文档与网站架构用于结构化网站的HTML 标题 &lt;header> 导航 &lt;nav> 主要内容 &lt;main> 章 &lt;article> 节 &lt;section> 侧栏 &lt;aside> 页脚 没有特定语义的装饰元素 &lt;div> &lt;span> 换行与水平分割线 &lt;br> &lt;hr> 调试HTML 宽容模式代码 HTML验证]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Frontend</category>
+        <category>HTML</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[JavaScript Templating]]></title>
+    <url>%2F2018%2F09%2F19%2FJavaScript-Templating%2F</url>
+    <content type="text"><![CDATA[HandlebarsUnderscoreLodashAngularJSJSX]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Frontend</category>
+        <category>JavaScript</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[CSS Frameworks]]></title>
+    <url>%2F2018%2F09%2F19%2FCSS-Frameworks%2F</url>
+    <content type="text"><![CDATA[BootstrapSemantic UIBulma]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Frontend</category>
+        <category>CSS</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[HTML Templating Languages]]></title>
+    <url>%2F2018%2F09%2F19%2FHTML-Templating-Languages%2F</url>
+    <content type="text"><![CDATA[PugERBSlimHandlebarsJinjaLiquid]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Frontend</category>
+        <category>HTML</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Whole Parts Details]]></title>
+    <url>%2F2018%2F09%2F19%2FWhole-Parts-Details%2F</url>
+    <content type="text"><![CDATA[前端这棵树? HTMLCSSHTTPJavaScriptWeb APIs DOM Device APIs Communication APIs Data Management APIs Privileged APIs Certified APIs Web Components Custom Elements Shadow DOM HTML Templates Graphics Canvas SVG WebGL Audio, Video, Multimedia Web media technologies Media Capture and Stream API HTML Audio and Video WebRTC Others MathML XSLT XPath Progressive Web Apps Accessibility Localization and Internationalization Security WebAssembly Else XML PHP SQL Python jQuery Bootstrap]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Frontend</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[Core Competence and Core Value]]></title>
     <url>%2F2018%2F09%2F18%2FCore-Competence-and-Core-Value%2F</url>
     <content type="text"><![CDATA[Engineer as practitioners of engineering, are people who invent, design, analyze, build, and test machines, systems, structures and materials to fulfill objectives and requirements while considering the limitations imposed by practicality, regulation, safety, and cost. Software Engineer is a person who applies the principles of software engineering to design, development, maintenance, testing, and evaluation of computer software. Programmer A programmer, developer, dev, coder, or software engineer is a person who creates computer software. Web developer is a programmer who specializers in, or is specifically engaged in, the development of World Wide Web applications, or applications that are run over HTTP from a web server to a web browser. Front-end web development is the practice of converting data to graphical interface for user to view and interact with data through digital interaction using HTML, CSS and JavaScript.]]></content>
@@ -99,7 +204,7 @@
   <entry>
     <title><![CDATA[HTML5]]></title>
     <url>%2F2018%2F09%2F17%2FHTML5%2F</url>
-    <content type="text"><![CDATA[HTML5 语义 section, article, nav, header, footer, aside, hgroup audio, video forms input, form, datalist, output placeholder, autofocus label.control 约束验证 mark, figure, figcaption, data, time, output, progress, meter, main iframe MathML 连通性 Web Sockets Server-sent events WebRTC 离线 &amp; 存储 应用程序缓存 在线和离线事件 DOM存储 Storage sessionStorage localStorage IndexdDB 自web应用程序中使用文件 多媒体 audio, video WebRTC Camera API Track 和 WebVTT 2D/3D绘图 &amp; 效果 Canvas WebGL SVG 性能 &amp; 集成 Web Workers XMLHttpRequest Level 2 即时编译的JavaScript引擎 History API contentEditable属性 拖放 HTML中的焦点管理 基于Web的协议处理程序 requestAnimationFrame 全屏 API 指针锁定 API 在线和离线事件 设备访问 Camera API 触控事件 使用地理位置 检测设备方向 指针锁定API 样式设计 新的背景样式特性 更精美的边框 为你的样式设置动画 排版方面的改进 新的展示性布局]]></content>
+    <content type="text"><![CDATA[HTML5语义; 连通性; 离线&amp;存储; 多媒体; 2D/3D绘图&amp;效果; 性能&amp;继承; 设备访问; 样式设计; 语义 section, article, nav, header, footer, aside, hgroup audio, video forms input, form, datalist, output placeholder, autofocus label.control 约束验证 mark, figure, figcaption, data, time, output, progress, meter, main iframe MathML 连通性 Web Sockets Server-sent events WebRTC 离线 &amp; 存储 应用程序缓存 在线和离线事件 DOM存储 Storage sessionStorage localStorage IndexdDB 自web应用程序中使用文件 多媒体 audio, video WebRTC Camera API Track 和 WebVTT 2D/3D绘图 &amp; 效果 Canvas WebGL SVG 性能 &amp; 集成 Web Workers XMLHttpRequest Level 2 即时编译的JavaScript引擎 History API contentEditable属性 拖放 HTML中的焦点管理 基于Web的协议处理程序 requestAnimationFrame 全屏 API 指针锁定 API 在线和离线事件 设备访问 Camera API 触控事件 使用地理位置 检测设备方向 指针锁定API 样式设计 新的背景样式特性 更精美的边框 为你的样式设置动画 排版方面的改进 新的展示性布局]]></content>
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
@@ -113,6 +218,7 @@
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
+        <category>JavaScript</category>
         <category>ProJS3</category>
       </categories>
   </entry>
@@ -123,6 +229,7 @@
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
+        <category>JavaScript</category>
         <category>ProJS3</category>
       </categories>
   </entry>
@@ -130,6 +237,12 @@
     <title><![CDATA[Function Expressions]]></title>
     <url>%2F2018%2F09%2F17%2FFunction-Expressions%2F</url>
     <content type="text"></content>
+      <categories>
+        <category>Coding</category>
+        <category>Frontend</category>
+        <category>JavaScript</category>
+        <category>ProJS3</category>
+      </categories>
   </entry>
   <entry>
     <title><![CDATA[Object-Oriented Programming]]></title>
@@ -138,16 +251,18 @@
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
+        <category>JavaScript</category>
         <category>ProJS3</category>
       </categories>
   </entry>
   <entry>
     <title><![CDATA[Reference Types]]></title>
     <url>%2F2018%2F09%2F17%2FReference-Types%2F</url>
-    <content type="text"><![CDATA[Object类型 Object构造函数 对象字面量表示法 Array类型: Array构造函数 数组字面量表示法 检测数组 instanceof Array.isArray() 转换方法 栈方法: push() pop() 队列方法: shift() unshift() 重排序方法: reverse() sort() 操作方法: concat() slice() 位置方法: indexOf() lastIndexOf() 迭代方法: every() filter() forEach() map() some() 归并方法: reduce() reduceRight() Date类型: Date.parese() Date.UTC() Date.now() 继承的方法: toLocaleString() toString() valueOf() 日期格式化方法: toDateString() toTimeString() toLocaleDateString() toLocaleTimeString() toUTCString() 日期/时间组件方法 RegExp类型 var expression = / pattern / flags ; pattern: 字符类, 限定类, 分组, 向前查找, 反向查找 flags: g, i, m 元字符: ( [ { \ ^ $ | ) ? * + . ] ) var expression = new RegExp( “pattern“, “flags“); RegExp实例属性: global ignoreCase lastIndex multiline source RegExp实例方法 exec() RegExp构造函数属性 模式的局限性 Function类型 函数实际上时对象, 每个函数都是Function类型的实例 函数声明语法 Function构造函数 没有重载 函数声明与函数表达式 函数声明提升 作为值的函数 函数内部属性 arguments callee this caller 函数属性和方法 length prototype apply() call() 基本包装类型: Boolean类型 Number类型 String类型 字符方法 charAt() charCodeAt() 字符串操作方法 concat() slice() substr() substring() 字符串位置方法 indexOf() lastIndexOf() trim()方法 字符串大小写转换方法 toLowerCase() toLocaleLowerCase() toUpperCase() toLocaleUpperCase() 字符串的模式匹配方法 match() search() replace() localeCompare()方法 fromCharCode()方法 HTML方法 单体内置对象 Global对象 URI编码方法 eval()方法 Global对象的属性 window对象 Math对象 Math对象的属性 min()和max()方法 舍入方法 random()方法 其他方法]]></content>
+    <content type="text"><![CDATA[引用类型: Object, Array, Date, RegExp, Function, 基本包装类型, 单体内置对象 Object类型 Object构造函数 对象字面量表示法 Array类型: Array构造函数 数组字面量表示法 检测数组 instanceof Array.isArray() 转换方法 栈方法: push() pop() 队列方法: shift() unshift() 重排序方法: reverse() sort() 操作方法: concat() slice() 位置方法: indexOf() lastIndexOf() 迭代方法: every() filter() forEach() map() some() 归并方法: reduce() reduceRight() Date类型: Date.parese() Date.UTC() Date.now() 继承的方法: toLocaleString() toString() valueOf() 日期格式化方法: toDateString() toTimeString() toLocaleDateString() toLocaleTimeString() toUTCString() 日期/时间组件方法 RegExp类型 var expression = / pattern / flags ; pattern: 字符类, 限定类, 分组, 向前查找, 反向查找 flags: g, i, m 元字符: ( [ { \ ^ $ | ) ? * + . ] ) var expression = new RegExp( “pattern“, “flags“); RegExp实例属性: global ignoreCase lastIndex multiline source RegExp实例方法 exec() RegExp构造函数属性 模式的局限性 Function类型 函数实际上时对象, 每个函数都是Function类型的实例 函数声明语法 Function构造函数 没有重载 函数声明与函数表达式 函数声明提升 作为值的函数 函数内部属性 arguments callee this caller 函数属性和方法 length prototype apply() call() 基本包装类型: Boolean类型 Number类型 String类型 字符方法 charAt() charCodeAt() 字符串操作方法 concat() slice() substr() substring() 字符串位置方法 indexOf() lastIndexOf() trim()方法 字符串大小写转换方法 toLowerCase() toLocaleLowerCase() toUpperCase() toLocaleUpperCase() 字符串的模式匹配方法 match() search() replace() localeCompare()方法 fromCharCode()方法 HTML方法 单体内置对象 Global对象 URI编码方法 eval()方法 Global对象的属性 window对象 Math对象 Math对象的属性 min()和max()方法 舍入方法 random()方法 其他方法]]></content>
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
+        <category>JavaScript</category>
         <category>ProJS3</category>
       </categories>
   </entry>
@@ -158,16 +273,18 @@
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
+        <category>JavaScript</category>
         <category>ProJS3</category>
       </categories>
   </entry>
   <entry>
     <title><![CDATA[Language Basics]]></title>
     <url>%2F2018%2F09%2F17%2FLanguage-Basics%2F</url>
-    <content type="text"><![CDATA[语法 区分大小写 标识符: 变量,函数,属性的名字, 或函数的参数 第一个字符必须是一个字母,下划线或一个美元符号; 其他字符还可以是数字 注释 严格模式 语句 关键字和保留字 Keywords and Reserved Words 变量 变量是松散类型: 可以用于保存任何类型的数据 var; 变量名; 初始化; 局部变量; 全局变量; 一条语句定义多个变量; 数据类型 Undefined, Null, Boolean, Number, String; Object [Symbol](https://developer.mozilla.org/en-US/docs/Glossary/Symbol: ES6 typeof操作符: undefined, boolean, number, string, object(null,object), function Undefined: var声明变量但未初始化, 变量的值为undefined; undefined值派生自null值, 相等性测试返回true Null: 逻辑角度来看, null值表示一个空对象指针; 初始化用于保存对象的变量 Boolean: true, false; 不一定等于1, 0; 小写形式; 所有类型的值都有与两个Boolean值等价的值, 转型函数Boolean() 数据类型 转换为true的值 转换为false的值 Boolean ture false String 任何非空字符串 空字符串 Number 任何非零数字值 0和NaN Object 任何对象 null Undefined n/a undefined Number: double-precision 64-bit floating point format (IEEE 754) 最基本的数值字面量格式: 十进制整数 浮点数值 数值范围: (Number.MIN_VALUE,Number.MAX.VALUE); -Infinity, Infinity NaN: 表示一个本来要返回数值的操作数未返回数值的情况; 与任何值都不相等 数值转换: Number(): 转换规则 Boolean: ture(1), flase(0) Number: 简单的传入和返回 Null: 0 Undefined: NaN String: 只包含数字, 转换为十进制数值, 忽略前导 0 包含有效浮点格式 包含有效的十六进制格式 空字符串, 转换为 0 包含除上述格式之外字符, 转化为NaN parseInt(): 忽略前面空格, 判断第一个非空格字符是否为数字符号或负号 空字符串, 转换为NaN 解析至遇到非数字字符 可识别各种整数格式 parseFloat(): 第二个小数点无效 只解析十进制值 String: 由零或多个16位Unicode字符组成的字符序列; 由双引号或单引号表示 特殊的字符字面量: 转义序列 字符串的特点: 不可变 转换为字符串: toString(): 可传递的参数为输出字符的基数 String(): 要转换的值由toString()方法; null返回”null”; undefined返回”undefined” Object: 一组数据和功能的集合 Object类型的实例, new操作符, 要创建的对象类型的名称 Object类型所具有的任何属性和方法也同样存在于更具体的对象中 Object的每个实例都具有的属性和方法: constructor hasOwnProperty(propertyName): 字符串形式指定作为参数的属性名 isPropertyOf(object) propertyIsEnumerable(propertyName) toLocaleString() toString() valueOf() 操作符 一元操作符: 递增和递减操作符: ++ 前置型: 递增递减操作时, 变量的值在语句被求值以前改变 后置型: 递增递减操作在包含他们的语句被求值之后才执行 递增和递减操作符遵循的规则: 一元加和减操作符 一元加操作符应用于非数值时, 会先像Number()一样对值执行转换 位操作符: 符号位; 二进制补码 按位非(NOT): ~ 按位与(AND): &amp; 按位或(OR): | 按位异或(XOR): ^ 左移: &lt;&lt; 有符号的右移: &gt;&gt; 无符号的右移: &gt;&gt;&gt; 布尔操作符: 逻辑非: ! ; 遵循的规则 逻辑与: &amp;&amp; 逻辑或: || 乘性操作符: 乘法: * 除法: / 求模: % 加性操作符: 加法: + 减法: - 关系操作符: 返回一个布尔值 小于: &lt; 大于: &gt; 小于等于: &lt;= 大于等于: &gt;= 相等操作符: == != === !== 条件操作符: variable = boolean_expression ? ture_value : false_value 赋值操作符: = *= ; /= ; %=; += ; -= ; &lt;&lt;= ; &gt;&gt;= 逗号操作符: 在一条语句中执行多个操作; 用于声明变量; 用于赋值 语句 if do-while while for for-ino lable break, continue with switch 函数 参数 没有重载]]></content>
+    <content type="text"><![CDATA[JavaScript基本概念 语法 区分大小写 标识符: 变量,函数,属性的名字, 或函数的参数 第一个字符必须是一个字母,下划线或一个美元符号; 其他字符还可以是数字 注释 严格模式 语句 关键字和保留字 Keywords and Reserved Words 变量 变量是松散类型: 可以用于保存任何类型的数据 var; 变量名; 初始化; 局部变量; 全局变量; 一条语句定义多个变量; 数据类型 Undefined, Null, Boolean, Number, String; Object [Symbol](https://developer.mozilla.org/en-US/docs/Glossary/Symbol: ES6 typeof操作符: undefined, boolean, number, string, object(null,object), function Undefined: var声明变量但未初始化, 变量的值为undefined; undefined值派生自null值, 相等性测试返回true Null: 逻辑角度来看, null值表示一个空对象指针; 初始化用于保存对象的变量 Boolean: true, false; 不一定等于1, 0; 小写形式; 所有类型的值都有与两个Boolean值等价的值, 转型函数Boolean() 数据类型 转换为true的值 转换为false的值 Boolean ture false String 任何非空字符串 空字符串 Number 任何非零数字值 0和NaN Object 任何对象 null Undefined n/a undefined Number: double-precision 64-bit floating point format (IEEE 754) 最基本的数值字面量格式: 十进制整数 浮点数值 数值范围: (Number.MIN_VALUE,Number.MAX.VALUE); -Infinity, Infinity NaN: 表示一个本来要返回数值的操作数未返回数值的情况; 与任何值都不相等 数值转换: Number(): 转换规则 Boolean: ture(1), flase(0) Number: 简单的传入和返回 Null: 0 Undefined: NaN String: 只包含数字, 转换为十进制数值, 忽略前导 0 包含有效浮点格式 包含有效的十六进制格式 空字符串, 转换为 0 包含除上述格式之外字符, 转化为NaN parseInt(): 忽略前面空格, 判断第一个非空格字符是否为数字符号或负号 空字符串, 转换为NaN 解析至遇到非数字字符 可识别各种整数格式 parseFloat(): 第二个小数点无效 只解析十进制值 String: 由零或多个16位Unicode字符组成的字符序列; 由双引号或单引号表示 特殊的字符字面量: 转义序列 字符串的特点: 不可变 转换为字符串: toString(): 可传递的参数为输出字符的基数 String(): 要转换的值由toString()方法; null返回”null”; undefined返回”undefined” Object: 一组数据和功能的集合 Object类型的实例, new操作符, 要创建的对象类型的名称 Object类型所具有的任何属性和方法也同样存在于更具体的对象中 Object的每个实例都具有的属性和方法: constructor hasOwnProperty(propertyName): 字符串形式指定作为参数的属性名 isPropertyOf(object) propertyIsEnumerable(propertyName) toLocaleString() toString() valueOf() 操作符 一元操作符: 递增和递减操作符: ++ 前置型: 递增递减操作时, 变量的值在语句被求值以前改变 后置型: 递增递减操作在包含他们的语句被求值之后才执行 递增和递减操作符遵循的规则: 一元加和减操作符 一元加操作符应用于非数值时, 会先像Number()一样对值执行转换 位操作符: 符号位; 二进制补码 按位非(NOT): ~ 按位与(AND): &amp; 按位或(OR): | 按位异或(XOR): ^ 左移: &lt;&lt; 有符号的右移: &gt;&gt; 无符号的右移: &gt;&gt;&gt; 布尔操作符: 逻辑非: ! ; 遵循的规则 逻辑与: &amp;&amp; 逻辑或: || 乘性操作符: 乘法: * 除法: / 求模: % 加性操作符: 加法: + 减法: - 关系操作符: 返回一个布尔值 小于: &lt; 大于: &gt; 小于等于: &lt;= 大于等于: &gt;= 相等操作符: == != === !== 条件操作符: variable = boolean_expression ? ture_value : false_value 赋值操作符: = *= ; /= ; %=; += ; -= ; &lt;&lt;= ; &gt;&gt;= 逗号操作符: 在一条语句中执行多个操作; 用于声明变量; 用于赋值 语句 if do-while while for for-ino lable break, continue with switch 函数 参数 没有重载]]></content>
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
+        <category>JavaScript</category>
         <category>ProJS3</category>
       </categories>
   </entry>
@@ -178,6 +295,7 @@
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
+        <category>JavaScript</category>
         <category>ProJS3</category>
       </categories>
   </entry>
@@ -188,6 +306,7 @@
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
+        <category>JavaScript</category>
         <category>ProJS3</category>
       </categories>
   </entry>
@@ -198,6 +317,7 @@
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
+        <category>JavaScript</category>
         <category>ProJS3</category>
       </categories>
   </entry>
@@ -208,6 +328,7 @@
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
+        <category>JavaScript</category>
         <category>ProJS3</category>
       </categories>
   </entry>
@@ -224,10 +345,11 @@
   <entry>
     <title><![CDATA[Professional JavaScript for Web Developers]]></title>
     <url>%2F2018%2F09%2F17%2FProfessional-JavaScript-for-Web-Developers%2F</url>
-    <content type="text"><![CDATA[JavaScript简介 | What is JavaScript? 在HTML中使用Javascript | JavaScript in HTML 基本概念 | Language Basics 变量、作用域和内存问题 | Variables, Scope, and Memory 引用类型 | Reference Types 面向对象的程序设计 | Object-Oriented Programming 函数表达式 | Function Expressions BOM | The Browser Object Model 客户端检测 | Client Detection DOM | The Document Object Model DOM扩展 | DOM Extensions DOM2和DOM3 | DOM Level 2 and 3 事件 | Events 表单脚本 | Scripting Forms 使用Canvas绘图 | Graphics with Canvas HTML5脚本编程 | HTML5 Scripting 错误处理与调试 | Error Handling and Debugging JavaScript与XML | XML in JavaScript E4X | ECMAScript for XML JSON | JSON Ajax与Comet | Ajax and Comet 高级技巧 | Advanced Techniques 离线应用与客户端存储 | Offline Applications and Client-Side Storage 最佳实践 | Best Practices 新兴的API | Emerging APIs]]></content>
+    <content type="text"><![CDATA[JavaScript 高级程序设计 (第3版) JavaScript简介 | What is JavaScript? 在HTML中使用Javascript | JavaScript in HTML 基本概念 | Language Basics 变量、作用域和内存问题 | Variables, Scope, and Memory 引用类型 | Reference Types 面向对象的程序设计 | Object-Oriented Programming 函数表达式 | Function Expressions BOM | The Browser Object Model 客户端检测 | Client Detection DOM | The Document Object Model DOM扩展 | DOM Extensions DOM2和DOM3 | DOM Level 2 and 3 事件 | Events 表单脚本 | Scripting Forms 使用Canvas绘图 | Graphics with Canvas HTML5脚本编程 | HTML5 Scripting 错误处理与调试 | Error Handling and Debugging JavaScript与XML | XML in JavaScript E4X | ECMAScript for XML JSON | JSON Ajax与Comet | Ajax and Comet 高级技巧 | Advanced Techniques 离线应用与客户端存储 | Offline Applications and Client-Side Storage 最佳实践 | Best Practices 新兴的API | Emerging APIs]]></content>
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
+        <category>JavaScript</category>
         <category>ProJS3</category>
       </categories>
   </entry>
@@ -276,7 +398,7 @@
   <entry>
     <title><![CDATA[Vue Essentials]]></title>
     <url>%2F2018%2F09%2F10%2FVue-Essentials%2F</url>
-    <content type="text"><![CDATA[Vue 核心最基本的功能 声明式渲染Vue.js 的核心是一个允许采用简洁的模板语法来声明式地将数据渲染进 DOM 的系统。vue01: 数据绑定到DOM文本；数据绑定到DOM特性 条件与循环vue02: 数据绑定到DOM结构 处理用户输入vue03: 事件监听器；表单输入和应用状态之间的双向绑定 组件化应用构建组件系统是一种抽象，允许使用小型、独立和通常可复用的组件构建大型应用。如何将任意类型的应用界面抽象为一个组件树？Vue中, 一个组件本质是一个拥有预定义选项的一个Vue实例。vue04: Vue实例 创建一个Vue实例 数据与方法 实现生命周期的钩子 模板语法 插值 指令 缩写 计算属性和侦听器 计算属性 侦听器 Class 与 Style 绑定 绑定 HTML Class 绑定内联样式 条件渲染 v-if v-show v-if vs v-show v-if &amp; v-for 列表渲染事件处理 监听事件 事件处理方法 事件修饰符 按键修饰符 系统修饰键 为什么在HTML中监听事件? 表单输入绑定 基础用法 值绑定 修饰符 在组件上使用v-model 组件基础 基本示例 组件的复用 组件的组织 通过Prop向子组件传递数据 单个根元素 通过事件向父级组件发送消息 通过插槽分发内容 动态组件 解析DOM模板时的注意事项]]></content>
+    <content type="text"><![CDATA[Vue 核心最基本的功能 声明式渲染Vue.js 的核心是一个允许采用简洁的模板语法来声明式地将数据渲染进 DOM 的系统。vue01: 数据绑定到DOM文本；数据绑定到DOM特性 条件与循环vue02: 数据绑定到DOM结构 处理用户输入vue03: 事件监听器；表单输入和应用状态之间的双向绑定 组件化应用构建组件系统是一种抽象，允许使用小型、独立和通常可复用的组件构建大型应用。如何将任意类型的应用界面抽象为一个组件树？Vue中, 一个组件本质是一个拥有预定义选项的一个Vue实例。vue04: Vue实例 创建一个Vue实例 数据与方法 实现生命周期的钩子 create mount update destroy 模板语法 插值 指令 缩写 计算属性和侦听器 计算属性 侦听器 Class 与 Style 绑定 绑定 HTML Class 绑定内联样式 条件渲染 v-if v-show v-if vs v-show v-if &amp; v-for 列表渲染事件处理 监听事件 事件处理方法 事件修饰符 按键修饰符 系统修饰键 为什么在HTML中监听事件? 表单输入绑定 基础用法 值绑定 修饰符 在组件上使用v-model 组件基础 基本示例 组件的复用 组件的组织 通过Prop向子组件传递数据 单个根元素 通过事件向父级组件发送消息 通过插槽分发内容 动态组件 解析DOM模板时的注意事项]]></content>
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
@@ -1291,7 +1413,7 @@
   <entry>
     <title><![CDATA[A waste of time]]></title>
     <url>%2F2017%2F07%2F15%2FA-Waste-of-Time%2F</url>
-    <content type="text"><![CDATA[The Big Bang TheoryPhysics, Astronomy, theory and engineeringnerds, who communicate with people in their own comfortable wayfocus more on things derived from nature instead of things about peoplethey are kind of genius when they are in the face of particular problems HouseHe in some way is totally a bad ass, but he can think differently.He is happy to fight with others and proving facts. HannibalHis sister was eaten by some people.He enjoys cooking people for eat.He can read other people’s mind. Sherlockdetails and logic and knowledge Suitspeople lie White Collarfraud Scorpionfake to be real Fringefuture science 24you are in pressure Elementaryfriendship is weird Mr. Robothack the world and hack your life Blindspottry to see hidden things Quanticoteam is power The Last Shipleadership? Friendslife is unromantic in the long run The Simpsonslife is not that ridiculous Modern FamilyYou have the right to cry. The Newsroomour country is beautiful for sure House of cardsstep forward in a colorful way Game of Throneshunt for some animals with the blood pay Grey’s Anatomyyou must try to find love and love Madam Secretarybe cool, young man How I met your motherhappy times The Last Man on Earththat can never happen for sure？ Agents of S.H.I.E.L.Dinvestigate]]></content>
+    <content type="text"><![CDATA[All those TV The Big Bang TheoryPhysics, Astronomy, theory and engineeringnerds, who communicate with people in their own comfortable wayfocus more on things derived from nature instead of things about peoplethey are kind of genius when they are in the face of particular problems HouseHe in some way is totally a bad ass, but he can think differently.He is happy to fight with others and proving facts. HannibalHis sister was eaten by some people.He enjoys cooking people for eat.He can read other people’s mind. Sherlockdetails and logic and knowledge Suitspeople lie White Collarfraud Scorpionfake to be real Fringefuture science 24you are in pressure Elementaryfriendship is weird Mr. Robothack the world and hack your life Blindspottry to see hidden things Quanticoteam is power The Last Shipleadership? Friendslife is unromantic in the long run The Simpsonslife is not that ridiculous Modern FamilyYou have the right to cry. The Newsroomour country is beautiful for sure House of cardsstep forward in a colorful way Game of Throneshunt for some animals with the blood pay Grey’s Anatomyyou must try to find love and love Madam Secretarybe cool, young man How I met your motherhappy times The Last Man on Earththat can never happen for sure？ Agents of S.H.I.E.L.Dinvestigate]]></content>
       <categories>
         <category>Thinking</category>
       </categories>
