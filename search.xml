@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[HTML Elements]]></title>
+    <url>%2F2018%2F09%2F21%2FHTML-Elements%2F</url>
+    <content type="text"><![CDATA[Main root Document metadata Sectioning root Content sectioning Text content Inline text semantics Image and multimedia Embedded content Scripting Demarcating edits Table content Forms Interactive elements Web Components Obsolete and deprecated elements]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Frontend</category>
+        <category>HTML</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[HTTP Status Code]]></title>
+    <url>%2F2018%2F09%2F21%2FHTTP-Status-Code%2F</url>
+    <content type="text"><![CDATA[HTTP Status CodeHTTP 状态消息 HTTP 状态码 Informational 1xx 100 Continue 101 Switching Protocols Successful 2xx 200 OK 201 Created 202 Accepted 203 Non-Authoritative Information 204 No Content 205 Reset 206 Partial Content Redirection 3xx 300 Multiple Choices 301 Moved Permanently 302 Found 303 See Other 304 Not Modified 305 Use Proxy 306 (Unused) 307 Temporary Redirct Client Error 4xx 400 Bad Request 401 Unauthorized 402 Payment Required 403 Forbidden 404 Not Found 405 Method Not Allowed 406 Not Acceptable 407 Proxy Authentication Required 408 Request Timeout 408 Conflict 410 Gone 411 Length Required 412 Precondition Failed 413 Request Entity Too Large 414 Request-URI Too Long 415 Unsupported Media Type 416 Request Range Not Satisfiable 417 Expectation Failed Sever Error 5xx 500 Internal Server Error 501 Not Implemented 502 Bad Gateway 503 Service Unavailable 504 Gateway Timeout 505 HTTP Version Not Supported]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Frontend</category>
+        <category>HTTP</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Hypertext Transfer Protocol]]></title>
+    <url>%2F2018%2F09%2F21%2FHypertext-Transfer-Protocol%2F</url>
+    <content type="text"><![CDATA[HTTP - Hypertext Transfer Protocol]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Frontend</category>
+        <category>HTTP</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[Sublime Text]]></title>
     <url>%2F2018%2F09%2F20%2FSublime-Text%2F</url>
     <content type="text"><![CDATA[Sublime Text: a sophisticated text editor for code, markup and prose.Package Control: the Sublime Text package manager.Emmet]]></content>
