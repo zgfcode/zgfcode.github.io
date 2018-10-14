@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Struture&Style&Behavior]]></title>
+    <url>%2F2018%2F10%2F10%2FStruture-Style-Behavior%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Where to Go]]></title>
+    <url>%2F2018%2F10%2F09%2FWhere-to-Go%2F</url>
+    <content type="text"><![CDATA[For all those years, I always know where to go though uncertainly.For the past several month, I have to tell myself what to do in the next day.Till now, to some extent I have no idea about my next step. I feel empty.It’s a big world and we have a long human history. One man is no man.You have to do something for the reason of provding food and warm for yourself.What’s the reality?You know something about your surroundings but you are afraid of the world.You are able to forget the world but you are not being allowed to.You often think you will be someone]]></content>
+      <categories>
+        <category>Thinking</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[CSS Basic]]></title>
+    <url>%2F2018%2F10%2F08%2FCSS-Basic%2F</url>
+    <content type="text"><![CDATA[Cascading Style Sheets 层叠次序: 浏览器缺省设置 外部样式表 内部样式表 内联样式 CSS规则:selector {declaration1; declaration2; … declarationN}selector {property: value} 选择器的分组: 用逗号将需要分组的选择器分开; 被分组的选择器可以分享相同的声明声明的分组: 在各个声明的最后使用分号结合选择器和声明的分组:CSS继承: 子元素从父元素继承属性派生选择器: 依据元素在其位置的上下文关系来定义样式; 后代/子元素/相邻兄弟选择器 CSS元素选择器 元素选择器(类型选择器) 通配符选择器: * , 与任何元素匹配 类选择器: 结合通配选择器: 选择所有类名相同的元素, 可以忽略通配选择器 结合元素选择器 多类选择器 ID选择器: 只能在文档中使用一次 不同使用ID词列表; ID选择器不能结合使用 ID能包含更多含义 属性选择器: *[property]{ } element[property]{ } element[property][property]{ } element[property=value]{ } 属性与属性值必须完全匹配 element[property~=value]{ } 部分值属性选择器与点好类名记法的区别 子串匹配属性选择器: [abc^=”def”]: 选择abc属性值以”def”开头的所有元素 [abc&amp;=”def”]: 结尾 [abc*=”def”]: 包含 *[lang|=”en”]{ } : 选择lang属性等于en或以en-开头的所有属性 后代选择器(包含选择器): 空格作为选择器之间的结合符 子元素选择器: &gt; , 大于号作为结合符 相邻兄弟选择器: + , 加号作为结合符 CSS伪类: 用于向某些选择器添加特殊的效果 selector : pseudo-class { } 锚伪类: :link, :visited, :hover, :active; 使用顺序有要求 :first-child伪类 :lang伪类 :focus伪类 伪类与CSS类的配合使用 CSS伪元素: 用于向某些选择器设置特殊效果 selector : pseudo-element {} :first-line :first-letter :before :after 伪元素与CSS类的配合使用 CSS样式 CSS背景 background background-color background-image:url(); background-repeat background-position background-attachment CSS文本 color direction line-height letter-spacing text-align text-decoration text-indent text-shadow text-transform unicode-bidi white-space word-spacing CSS字体 通用字体 Serif Sans-serif Monospace Cursive Fantasy 特定字体 font-family font-style font-variant font-weight font-size CSS链接 a:link a:visited a:hover a:active hover位于link和visited之后, 位于active之前 text-decoration; background-color; CSS列表 list-style list-style-type list-style-image list-style-position CSS表格 border: 1px solid green; text-align; vertical-align; border-collapse border-spacing caption-side empty-cells table-layout CSS轮廓 outline outline-color outline-style outline-width CSS框模型 元素内容; 内边距; 边框; 外边距 上, 右, 下, 左 padding border border-style border-width border-color margin 值复制: 左用右, 下用上, 右用上 外边距合并: 两个垂直外边距相遇将形成一个外边距, 高度取较大者 CSS定位 一切皆为框: 用display属性改变生成的框的类型 CSS定位机制: 普通流, 浮动, 绝对定位 position: static/relative/absolute/fixed overflow/clip/z-index 相对定位: 相对于”起点”进行移动 绝对定位: 相对于最近的已定位祖先元素进行移动; 相对于最初的包含块进行移动; 固定定位: 包含块是视窗本身的绝对定位 CSS浮动: *]]></content>
+      <categories>
+        <category>Coding</category>
+        <category>Frontend</category>
+        <category>CSS</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[All Those Movies]]></title>
+    <url>%2F2018%2F09%2F26%2FAll-Those-Movies%2F</url>
+    <content type="text"><![CDATA[The Shawshank Redemption Forrest Gump The Good, the Bad and the Ugly 12 Angry Men Schindler’s List Fight Club The Matris One Flew Over the Cuckoo’s Nest Se7en The Silence of the Lambs Once Upon a Time in the West The Usual Suspects Psycho Saving Private Ryan The Green Mile Intouchables WALL-E Cinema Paradiso Braceheart Rashomon 2001: A Space Odyssey Up Good Will Hunting Hachi: A Dog’s Tale Hotel Rwanda Finding Nemo Ben-Hur The King’s Speech A Beautiful Mind Black Swan Slumdog Millionarie Monsters, Inc. The Truman Show 3 Idiots Life of Pi Shutter Island District 9 Rain Man Leon La vita e bella Inception La leggenda del pianista sull’oceano The Godfater Star Wars The Lord of the Rings Terminator Toy Story Kill Bill The Avengers Rocky Pirates of the Caribbean Harry Potter Jurassic Park Star Trek The Hobbit]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Perish in Silence]]></title>
     <url>%2F2018%2F09%2F24%2FPerish-in-Silence%2F</url>
     <content type="text"><![CDATA[I could not bear to look at this cruel sight. Even more, I could not bear to hear these rumours. What else is there I can say? I understand why a dying race remains silent. Silence, silence! Unless we burst out, we shall perish in this silence!]]></content>
@@ -338,7 +366,7 @@
   <entry>
     <title><![CDATA[Reference Types]]></title>
     <url>%2F2018%2F09%2F17%2FReference-Types%2F</url>
-    <content type="text"><![CDATA[引用类型: Object, Array, Date, RegExp, Function, 基本包装类型, 单体内置对象 Object类型 Object构造函数 对象字面量表示法 Array类型: Array构造函数 数组字面量表示法 检测数组 instanceof Array.isArray() 转换方法 栈方法: push() pop() 队列方法: shift() unshift() 重排序方法: reverse() sort() 操作方法: concat() slice() 位置方法: indexOf() lastIndexOf() 迭代方法: every() filter() forEach() map() some() 归并方法: reduce() reduceRight() Date类型: Date.parese() Date.UTC() Date.now() 继承的方法: toLocaleString() toString() valueOf() 日期格式化方法: toDateString() toTimeString() toLocaleDateString() toLocaleTimeString() toUTCString() 日期/时间组件方法 RegExp类型 var expression = / pattern / flags ; pattern: 字符类, 限定类, 分组, 向前查找, 反向查找 flags: g, i, m 元字符: ( [ { \ ^ $ | ) ? * + . ] ) var expression = new RegExp( “pattern“, “flags“); RegExp实例属性: global ignoreCase lastIndex multiline source RegExp实例方法 exec() RegExp构造函数属性 模式的局限性 Function类型 函数实际上时对象, 每个函数都是Function类型的实例 函数声明语法 Function构造函数 没有重载 函数声明与函数表达式 函数声明提升 作为值的函数 函数内部属性 arguments callee this caller 函数属性和方法 length prototype apply() call() 基本包装类型: Boolean类型 Number类型 String类型 字符方法 charAt() charCodeAt() 字符串操作方法 concat() slice() substr() substring() 字符串位置方法 indexOf() lastIndexOf() trim()方法 字符串大小写转换方法 toLowerCase() toLocaleLowerCase() toUpperCase() toLocaleUpperCase() 字符串的模式匹配方法 match() search() replace() localeCompare()方法 fromCharCode()方法 HTML方法 单体内置对象 Global对象 URI编码方法 eval()方法 Global对象的属性 window对象 Math对象 Math对象的属性 min()和max()方法 舍入方法 random()方法 其他方法]]></content>
+    <content type="text"><![CDATA[引用类型: Object Array Date RegExp Function 基本包装类型 单体内置对象 Object类型 Object构造函数 var variateName=new Object();variateName.propertyName=”propertyValue”;variateName.propertyName2=”propertyValue2”; 对象字面量表示法 var variateName={ propertyName: “propertyValue”, propertyName2: “propertyValue2”} 逗号分隔不同的属性, 最后一个属性后不添加逗号 访问对象属性时用点表示法或方括号表示法 Array类型 创建数组的两种基本方式: Array构造函数 数组字面量表示法 检测数组: 确定某个对象是不是数组 value instanceof Array : 假定只有一个全局作用域; 只用于一个网页或一个全局作用域中 Array.isArray(value) 转换方法: toLocaleString() : 调用数组每一项的toLocaleString()方法 toString() : 返回由数组每个值的字符串形式拼接而成的一个以逗号分隔的字符串 valueOf() : 返回数组 join(): 实现以不同的分隔符来构建返回的字符串 数组方法 作用; 参数; 返回值; 原数组是否改变 栈方法 : push(): 向数组末尾增加一项或多项, 返回增加后的数组长度, 原数组改变 pop(): 删除数组末尾最后一项, 返回删除的内容, 不需要参数 队列方法 : shift(): 删除数组开头第一项, 返回的删除的内容, 原数组改变, 不需要参数 unshift(): 向数组开头添加一项或多项, 返回增加后的数组长度, 原数组改变 重排序方法 : reverse() sort() 操作方法 : concat() slice() splice(): splice(x): 从索引x开始删除到数组末尾, 将删除的元素组成新数组返回, 原数组改变 splice(x,y): 从索引x开始删除y个元素, 将删除的元素组成新数组返回, 原数组改变 splice(x,y,z): 从索引x开始删除y个元素, 将删除的元素替换为z, 原数组改变 splice(x,0,z): 将z插入到原数组x位置的前面, 返回空数组, 原数组改变 位置方法 : indexOf() lastIndexOf() 迭代方法 : every() filter() forEach() map() some() 归并方法 : reduce() reduceRight() Date类型 Date.parese() Date.UTC() Date.now() 继承的方法: toLocaleString() toString() valueOf() 日期格式化方法: toDateString() toTimeString() toLocaleDateString() toLocaleTimeString() toUTCString() 日期/时间组件方法 RegExp类型 var expression = / pattern / flags ; pattern: 字符类, 限定类, 分组, 向前查找, 反向查找 flags: g, i, m 元字符: ( [ { \ ^ $ | ) ? * + . ] ) var expression = new RegExp( “pattern“, “flags“); RegExp实例属性: global ignoreCase lastIndex multiline source RegExp实例方法 exec() RegExp构造函数属性 模式的局限性 Function类型 函数实际上时对象, 每个函数都是Function类型的实例 函数声明语法 Function构造函数 没有重载 函数声明与函数表达式 函数声明提升 作为值的函数 函数内部属性 arguments callee this caller 函数属性和方法 length prototype apply() call() 基本包装类型 Boolean类型 Number类型 String类型 字符方法 charAt() charCodeAt() 字符串操作方法 concat() slice() substr() substring() 字符串位置方法 indexOf() lastIndexOf() trim()方法 字符串大小写转换方法 toLowerCase() toLocaleLowerCase() toUpperCase() toLocaleUpperCase() 字符串的模式匹配方法 match() search() replace() localeCompare()方法 fromCharCode()方法 HTML方法 单体内置对象 Global对象 URI编码方法 eval()方法 Global对象的属性 window对象 Math对象 Math对象的属性 min()和max()方法 舍入方法 random()方法 其他方法]]></content>
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
@@ -404,7 +432,7 @@
   <entry>
     <title><![CDATA[DOM]]></title>
     <url>%2F2018%2F09%2F17%2FDOM%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[var oDiv=document.querySelector(“div | .className | #idName”);document.querySelectorAll()不兼容IE6-8 document.getElementById()document.getElementsByClassName()document.getElementsByTagName()document.getElementsByName() var oHtml=document.documentElement;var oBody=document.body;]]></content>
       <categories>
         <category>Coding</category>
         <category>Frontend</category>
@@ -1493,7 +1521,7 @@
   <entry>
     <title><![CDATA[A waste of time]]></title>
     <url>%2F2017%2F07%2F15%2FA-Waste-of-Time%2F</url>
-    <content type="text"><![CDATA[All those TV The Big Bang TheoryPhysics, Astronomy, theory and engineeringnerds, who communicate with people in their own comfortable wayfocus more on things derived from nature instead of things about peoplethey are kind of genius when they are in the face of particular problems HouseHe in some way is totally a bad ass, but he can think differently.He is happy to fight with others and proving facts. HannibalHis sister was eaten by some people.He enjoys cooking people for eat.He can read other people’s mind. Sherlockdetails and logic and knowledge Suitspeople lie White Collarfraud Scorpionfake to be real Fringefuture science 24you are in pressure Elementaryfriendship is weird Mr. Robothack the world and hack your life Blindspottry to see hidden things Quanticoteam is power The Last Shipleadership? Friendslife is unromantic in the long run The Simpsonslife is not that ridiculous Modern FamilyYou have the right to cry. The Newsroomour country is beautiful for sure House of cardsstep forward in a colorful way Game of Throneshunt for some animals with the blood pay Grey’s Anatomyyou must try to find love and love Madam Secretarybe cool, young man How I met your motherhappy times The Last Man on Earththat can never happen for sure？ Agents of S.H.I.E.L.Dinvestigate]]></content>
+    <content type="text"><![CDATA[All those TV The Big Bang TheoryPhysics, Astronomy, theory and engineeringnerds, who communicate with people in their own comfortable wayfocus more on things derived from nature instead of things about peoplethey are kind of genius when they are in the face of particular problems House M.D.He in some way is totally a bad ass, but he can think differently.He is happy to fight with others and proving facts. HannibalHis sister was eaten by some people.He enjoys cooking people for eat.He can read other people’s mind. Friends Modern Family Grey’s Anatomy Breaking Bad Sherlock Suits White Collar Scorpion Fringe 24 Elementary Mr. Robot Blindspot Quantico The Last Ship The Simpsons The Newsroom House of Cards Game of Thrones Madam Secretary How I met your mother The Last Man on Earth Agents of S.H.I.E.L.D Bodyguard Doctor Foster Tom Clancy’s Jack Ryan Rick and Morty Orange is the New Black Westworld Outlander Black Mirror Chance Person Of Interest Tyrant Young Sheldon Prison Break]]></content>
       <categories>
         <category>Thinking</category>
       </categories>
